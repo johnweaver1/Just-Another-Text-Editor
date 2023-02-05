@@ -1,14 +1,14 @@
 {
     "name": "JATE",
     "version": "1.0.0",
-    "description": "",
+    "description": "PWA: Text Editor for Challenge 19",
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "John Weaver",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.17.1"
     },
