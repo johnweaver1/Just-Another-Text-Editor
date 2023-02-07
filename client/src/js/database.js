@@ -30,7 +30,6 @@ console.log("data saved to database", result);
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-console.error('getDb not implemented');
 console.log("GET all from the database");
 const jateDB = await openDB("jate", 1);
 const tx = jateDB.transaction("jate", "readwrite");
